@@ -1,0 +1,46 @@
+
+
+section.accordion {
+   top:2469px;
+   left:101px;
+   width:669px;
+   position:absolute;
+}
+
+.accordion-body{
+  color: #5F6368;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #5F6368;
+    text-align: left;
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 4px 4px 0px 0px;
+    border-color:#E3E3E3;
+    opacity:100%;
+    overflow-anchor: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+}
+
+.accordion-button::after{
+    background-image: url(../../assets/Images/Icon-feather-chevron-down.svg);
+  }
+
+.accordion-button:not(.collapsed){
+    color: #5F6368;
+    background-color: #F8F8F8;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url(../../assets/Images/Icon-feather-chevron-down.svg);
+    transform: rotate(-180deg);
+    color: #5F6368;
+    background-color: #F8F8F8;
+}
+

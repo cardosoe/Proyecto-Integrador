@@ -1,0 +1,52 @@
+/*Rectángulo naranja a la izquierda de la segunda seccion*/
+.rectangulo {
+  top: 912px;
+  left: 0px;
+  width: 32px;
+  height: 384px;
+  margin-bottom: 144px;
+  background: #e0752f 0% 0%;
+  height: 384px;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  margin-left: 299px;
+  width: 410px;
+  height: 100px;
+  margin-top: 167px;
+  margin-bottom: 44px;
+  top: 34px;
+  letter-spacing: 0.55px;
+  opacity: 1;
+  line-height: 45px;
+  position: relative;
+}
+
+.rectangulo > h4 {
+  width: 402px;
+  height: 100px;
+  margin-bottom: 144px;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  margin-left: 299px;
+  letter-spacing: 0.55px;
+  opacity: 1;
+  line-height: 45px;
+}
+
+.rectangulo > h4 > span {
+  top: 912px;
+  width: 402px;
+  height: 100px;
+  margin-bottom: 144px;
+  font-family: "Poppins", sans-serif;
+  font-size: 39px;
+  font-weight: 600;
+  letter-spacing: 0.55px;
+  opacity: 1;
+  line-height: 45px;
+}
