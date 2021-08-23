@@ -1,18 +1,24 @@
-import React from "react";
+import React, { Component } from "react";
 import "../Footer/Footer.scss";
 import Logo from "../../assets/Images/top-logo.svg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-const Footer = () => {
-  return (
-    <div>
-      <footer className="footer">
-        <div className="copy">2020 © All rights reserved.</div>
-        <a href="../Section1/Section1.js/#Section1">
-          <img src={Logo} alt="Logo 25 Whatts" className="footer-logo" />
-        </a>
-      </footer>
-    </div>
-  );
-};
+export default class Footer extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
-export default Footer;
+  render() {
+
+    return (
+      <div>
+        <footer className="footer">
+          <div className="copy">2020 © All rights reserved.</div>
+          <a>
+            <img src={Logo} alt="Logo 25 Whatts" className="footer-logo" onClick={this.scrollToTop} />
+          </a>
+        </footer>
+      </div>
+    );
+  };
+}

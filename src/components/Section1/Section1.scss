@@ -10,7 +10,7 @@
 .nav-ul {
   list-style: none;
 }
-.nav-ul a {
+.nav-ul ul {
   margin-right: 48px;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -49,6 +49,11 @@ a {
   border-left-width: 0px;
   border-top-width: 0px;
   border-right-width: 0px;
+    position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+    margin-bottom: 0!important;
+    z-index: 20;
 }
 
 .h1-header {
@@ -139,4 +144,6 @@ p {
 }
 
 /* /header */
-
+.carousel-control-prev, .carousel-control-next{
+opacity: 0;
+}

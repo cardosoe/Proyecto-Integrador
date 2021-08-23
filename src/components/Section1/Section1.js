@@ -3,6 +3,7 @@ import Logo from "../../assets/Images/top-logo.svg";
 import "../../components/Section1/Section1.scss";
 import Carousel from "../../containers/Carousel/Carousel";
 import "../../containers/Carousel/Carousel.scss";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Section1 = () => {
   return (
@@ -14,11 +15,39 @@ const Section1 = () => {
           <nav>
             <li>
               <ul className="nav-ul flex-row">
-                <a href="../Section1/Section1.js/#Section1">Home</a>
-                <a href="../Section2/Section2.js/#Section2">About</a>
-                <a href="../Section3/Section3.js/#Section3">Products</a>
-                <a href="../Section4/Section4.js/#Section4">Services</a>
-                <a href="../Contact/Contact.js/#Contact">Contact</a>
+                <ul><Link
+                  activeClass="active"
+                  to="Section1"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>Home</Link></ul>
+                <ul><Link
+                  activeClass="active"
+                  to="Section2"
+                  spy={true}
+                  smooth={true}
+                  offset={-230}
+                  duration={500}>About</Link></ul>
+                <ul><Link
+                  activeClass="active"
+                  to="Section3"
+                  spy={true}
+                  smooth={true}
+                  offset={120}
+                  duration={500}>Products</Link></ul>
+                <ul><Link
+                  to="Section4"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>Services</Link></ul>
+                <ul><Link
+                  to="Contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>Contact</Link></ul>
               </ul>
             </li>
           </nav>
@@ -31,11 +60,16 @@ const Section1 = () => {
         Sed ut perspiciatis unde omnis iste natus error
         <br /> sit voluptatem accusantium doloremque.
       </h3>
-      <a href="../Section4/Section4.js/#Section4">
-        <input type="button" value="Read More" className="button" />
-      </a>
-        <Carousel />
-    </div>
+      <a> <Link
+        to="Section4"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}>
+        <input type="button" value="Read More" className="button" /></Link>
+      </a >
+      <Carousel />
+    </div >
   );
 };
 

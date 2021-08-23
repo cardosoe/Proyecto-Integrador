@@ -5,7 +5,7 @@ import Section3 from "./components/Section3/Section3";
 import Section4 from "./components/Section4/Section4";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   return (
