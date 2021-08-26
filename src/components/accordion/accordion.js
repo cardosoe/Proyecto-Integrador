@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import _default from "react-bootstrap/esm/Breadcrumb";
 import "./accordion.scss";
 
 const accordion = () => {
@@ -40,5 +41,4 @@ const accordion = () => {
     </section>
   );
 };
-
 export default accordion;
