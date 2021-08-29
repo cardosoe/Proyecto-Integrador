@@ -1,64 +1,72 @@
+
+
+.Section2{
+  top: 44rem;
+  position: relative;
+}
+
 /*Rectángulo naranja a la izquierda de la segunda seccion*/
+
 .rectangulo {
-  top: 912px;
-  left: 0px;
-  width: 32px;
-  height: 384px;
-  margin-bottom: 144px;
+  top: 57rem;
+  left: 0rem;
+  width: 2rem;
+  height: 24rem;
+  margin-bottom: 9rem;
   background: #e0752f 0% 0%;
-  height: 384px;
+  height: 24rem;
 }
 
 h4 {
   font-family: "Poppins", sans-serif;
-  font-size: 39px;
+  font-size: 2.4375rem;
   font-weight: 600;
-  margin-left: 299px;
-  width: 410px;
-  height: 100px;
-  margin-top: 167px;
-  margin-bottom: 44px;
-  top: 34px;
-  letter-spacing: 0.55px;
+  margin-left: 18.6875rem;
+  width: 25.625rem;
+  height: 6.25rem;
+  margin-top: 10.4375rem;
+  margin-bottom: 2.75rem;
+  top: 2.125rem;
+  letter-spacing: 0.0344rem;
   opacity: 1;
-  line-height: 45px;
+  line-height: 2.8125rem;
   position: relative;
 }
 
 .rectangulo > h4 {
-  width: 402px;
-  height: 100px;
-  margin-bottom: 144px;
+  width: 25.125rem;
+  height: 6.25rem;
   font-family: "Poppins", sans-serif;
-  font-size: 39px;
+  font-size: 2.4375rem;
   font-weight: 600;
-  margin-left: 299px;
-  letter-spacing: 0.55px;
+  margin-left: 18.6875rem;
+  margin-bottom: 0rem;
+  letter-spacing: 0.0344rem;
   opacity: 1;
-  line-height: 45px;
+  line-height: 2.8125rem;
 }
 
 .rectangulo > h4 > span {
-  top: 912px;
-  width: 402px;
-  height: 100px;
-  margin-bottom: 144px;
+  top: 57rem;
+  width: 25.125rem;
+  height: 6.25rem;
+  margin-bottom: 9rem;
   font-family: "Poppins", sans-serif;
-  font-size: 39px;
+  font-size: 2.4375rem;
   font-weight: 600;
-  letter-spacing: 0.55px;
+  letter-spacing: 0.0344rem;
   opacity: 1;
-  line-height: 45px;
+  line-height: 2.8125rem;
 }
 
 .Section2_text{
-  top: 1079px;
-  margin-left: 299px;
-  width: 768px;
-  height: 197px;
+  margin-top: 2.75rem;
+  margin-left: 18.6875rem;
+  width: 48rem;
+  height: 12.3125rem;
   text-align: left;
-  font: normal normal normal 16px/28px "Roboto";
-  letter-spacing: 0.22px;
+  font: normal normal normal 1rem/1.75rem "Roboto";
+  letter-spacing: 0.0138rem;
   color: #343434;
   opacity: 1;
   position: absolute;

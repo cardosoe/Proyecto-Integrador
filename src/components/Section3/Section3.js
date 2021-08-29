@@ -6,7 +6,7 @@ import FlechaDerecha from "../../assets/Images/Icon-feather-arrow-right-circle.s
 
 const Section3 = () => {
   return (
-    <div>
+    <div className="Section3">
       <div className="fotoCasa">
         <div className="RectanguloGris">
           <div className="FotoCasa">

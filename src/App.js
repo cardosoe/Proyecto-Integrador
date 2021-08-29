@@ -5,19 +5,28 @@ import Section3 from "./components/Section3/Section3";
 import Section4 from "./components/Section4/Section4";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignContent: "center",
+        width: "85.375rem",
+        margin: "0 auto"
+
+      }}>
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
       <Contact />
       <Footer />
+
     </div>
   );
 }
 
-export default App;
+export default App
