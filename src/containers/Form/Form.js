@@ -1,6 +1,36 @@
 import React from "react";
 import Globos from "../../assets/Images/contact-image.png";
+import Form from 'react-bootstrap/Form'
 import "../Form/Form.scss";
+
+//const ContactForm = () => {
+  //return (
+    //<div className="container-contacto">
+      //<div className="RectanguloGrisContacto">
+        //<Form>
+          //<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            //<Form.Label>Name</Form.Label>
+            //<Form.Control type="name" placeholder="Name" />
+          //</Form.Group>
+          //<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            //<Form.Label>Email address</Form.Label>
+            //<Form.Control type="email" placeholder="name@example.com" />
+           //</Form.Group>
+          //<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            //<Form.Label>Phone Number</Form.Label>
+            //<Form.Control type="tel" placeholder="Phone" />
+           //</Form.Group>
+          //<Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            //<Form.Label>Example textarea</Form.Label>
+            //<Form.Control as="textarea" rows={3} />
+          //</Form.Group>
+        //</Form>
+      //</div>
+    //</div>
+  //);
+//};
+
+//export default ContactForm;
 
 const ContactForm = () => {
   return (
@@ -13,17 +43,22 @@ const ContactForm = () => {
             <span style={{ color: "#e0752f" }}>We are hiring!</span>
           </span>
         </h2>
-        <input type="text" placeholder="Name" className="Name" />
-        <input type="email" placeholder="Email" className="Email" />
-        <input type="tel" placeholder="Phone" className="Phone" />
-        {
-          <input
-            type="text"
-            placeholder="Message"
-            className="Message"
-            style={{ height: "96px" }}
-          />
-        }
+    <div className="Form">
+        <Form>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="name" placeholder="Name" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="email" placeholder="Email" />
+           </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Control type="tel" placeholder="Phone" />
+           </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Control as="textarea" rows={3} placeholder="Message" />
+          </Form.Group>
+        </Form>
+    </div>
         <input type="button" value="Send" className="button2" />
         <img
           src={Globos}
