@@ -12,11 +12,11 @@
 // .carousel.image{
 //   width: 100%;
 //   height: 100%;
-// }
-.carousel-item {
-height: 100vh;
-min-height: 350px;
-background: no-repeat center center scroll;
+  // }
+  .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -55,4 +55,33 @@ background-size: cover;
     list-style: none;
     flex-direction: row;
     align-items: center;
+}
+
+  h3 {
+   top: -557px;
+   left: -74px;
+   width: 346px;
+   height: 42px;
+   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+   letter-spacing: var(--unnamed-character-spacing-0-22);
+   font-weight: 400;
+   color: var(--unnamed-color-ffffff);
+   text-align: left;
+   font: normal normal medium 16px/21px Roboto;
+   letter-spacing: 0.22px;
+   color: #FFFFFF;
+   opacity: 1;
+   position: absolute;
+ }
+  .carousel_text {
+  top: -494px;
+  margin-left: -77px;
+  width: 768px;
+  height: 197px;
+  text-align: left;
+  font: normal normal normal 16px/28px "Roboto";
+  letter-spacing: 0.22px;
+  color: #FFFFFF;
+  opacity: 1;
+  position: absolute;
 }
