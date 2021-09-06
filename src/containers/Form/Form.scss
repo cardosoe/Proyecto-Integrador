@@ -1,94 +1,104 @@
+
 .Contact {
-  margin-top: 248px;
-  margin-left: 495px;
-  width: 471px;
-  height: 304px;
+  margin-top: 15.5rem;
+  margin-left: 30.9375rem;
+  width: 29.4375rem;
+  height: 19rem;
   background: #e0752f 0% 0% no-repeat padding-box;
   opacity: 1;
-  top: 1800px;
+  top: 112.5rem;
 }
 
-
-
 .container-contacto {
-  margin-bottom: 0px;
-  left: 0px;
-  width: 1366px;
-  height: 768px;
+  margin-bottom: 0rem;
+  left: 0rem;
+  width: 85.375rem;
+  height: 48rem;
   background: #f2f4f1 0% 0% no-repeat padding-box;
   opacity: 1;
+  position: relative;
 }
 
 .container-contacto h2 {
   left: auto;
-  right: 879px;
-  top: 156px;
-  margin-left: 0px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  right: 54.9375rem;
+  top: 9.75rem;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
   position: relative;
-  font-size: 39px;
+  font-size: 2.4375rem;
   font-weight:600;
-  letter-spacing: 0.55px;
+  letter-spacing: 0.0344rem;
+}
+.Form {
+  left: auto;
+  right: 54.9375rem;
+  top: 13.1875rem;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  position: relative;
+  font-size: 2.4375rem;
+  font-weight:600;
+  letter-spacing: 0.0344rem;
+
 }
 
 .FotoGlobos {
-  width: 600px;
-  height: 400px;
+  width: 37.5rem;
+  height: 25rem;
   left: auto;
   background: transparent url("../../assets/Images/contact-image.png") 0% 0%
     no-repeat padding-box;
   opacity: 1;
   position: relative;
-  top: -220px;
-  right: 303px;
+  top: -13.75rem;
+  right: 18.9375rem;
 }
 
 .RectanguloGrisContacto {
-  margin-left: 968px;
-  width: 398px;
-  height: 768px;
+  margin-left: 60.5rem;
+  width: 24.875rem;
+  height: 48rem;
   background: #dce1da 0% 0% no-repeat padding-box;
   opacity: 1;
   position: relative;
 }
 
-input {
-  top: 195px;
-  right: 879px;
-  width: 471px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-  padding-bottom: 0px;
-  padding-top: 33px;
-  padding-right: 0px;
-  border-left-width: 0px;
+.form-control {
+  width: 29.4375rem;
+  border-top-width: 0rem;
+  border-right-width: 0rem;
+  padding-bottom: 0.6875rem;
+  padding-top: 0.6875rem;
+  padding-right: 0rem;
+  border-left-width: 0rem;
   opacity: 1;
   background-color: transparent;
   position: relative;
-  line-height: 33px;
   font-weight: 600;
   text-align: left;
-  font: normal normal medium 16px/21px Roboto;
-  letter-spacing: 0.22px;
+  font: normal normal medium 1rem/1.3125rem Roboto;
+  letter-spacing: 0.0138rem;
   color: #5F6368;
 
 }
 
 .button2 {
-  top: 228px;
-  width: 144px;
-  height: 48px;
-  left: -879px;
+  top: 14.25rem;
+  width: 9rem;
+  height: 3rem;
+  left: -54.9375rem;
   background: #e0752f 0% 0% no-repeat padding-box;
-  border-radius: 25px;
-  border: 0px;
-  padding: 0px;
+  border-radius: 1.5625rem;
+  border: 0rem;
+  padding: 0rem;
   opacity: 1;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
-  letter-spacing: 0.22px;
+  letter-spacing: 0.0138rem;
   color: #ffffff;
   position: relative;
 }

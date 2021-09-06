@@ -66,6 +66,7 @@ background-size: cover;
 
 
   h3 {
+<<<<<<< HEAD
    top: -34.123rem;
    margin-left: -13.313rem;
    width: 34.625rem;
@@ -76,19 +77,41 @@ background-size: cover;
    color: var(--unnamed-color-ffffff);
    text-align: left;
    font-family: Roboto;
+=======
+   top: -32.125rem;
+   margin-left: -6.313rem;
+   width: 34.625rem;
+   height: 7.188rem;
+   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+   letter-spacing: var(--unnamed-character-spacing-0-22);
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 3.25rem;
+   color: var(--unnamed-color-ffffff);
+   text-align: left;
+   font: normal normal medium 1rem/1.3125rem Roboto;
+>>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d
    letter-spacing: 0.0138rem;
    color: #FFFFFF;
    opacity: 1;
    position: relative;
  }
   .carousel_text {
+<<<<<<< HEAD
   top: -33.875rem;
+=======
+  top: -30.875rem;
+>>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d
   margin-left: -6.313rem;
   width: 21.438rem;
   height: 2.625rem;
   line-height: 1.313rem;
   text-align: left;
+<<<<<<< HEAD
   font: normal normal normal 1rem/1.75em "Roboto";
+=======
+  font: normal normal normal 1rem/1.75rem "Roboto";
+>>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d
   font-size:1rem;
   font-weight: 400;
   letter-spacing: 0.0138rem;
@@ -97,10 +120,13 @@ background-size: cover;
   position: relative;
 }
 
+<<<<<<< HEAD
 .carousel-control-prev, .carousel-control-next {
   opacity: 0;
 }
 
+=======
+>>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d
 // .Slideshow {
 //   img {
 //     @include breakpoint("tablet") {
@@ -112,4 +138,8 @@ background-size: cover;
 //       object-fit: cover;
 //     }
 //   }
+<<<<<<< HEAD
 // }r
+=======
+// }
+>>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d

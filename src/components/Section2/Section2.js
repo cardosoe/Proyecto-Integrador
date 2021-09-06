@@ -3,8 +3,7 @@ import "../Section2/Section2.scss";
 
 const Section2 = () => {
   return (
-    <div>
-      <section id="Section2"></section>
+    <div className="Section2">
       <div className="rectangulo">
         <h4>
           <span style={{ color: "#343434" }}>
@@ -13,7 +12,7 @@ const Section2 = () => {
             <span style={{ color: "#e0752f" }}>Grow and Innovate</span>
           </span>
         </h4>
-        <p>
+        <p class="Section2_text">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
@@ -27,7 +26,6 @@ const Section2 = () => {
           invidunt ut
         </p>
         <br />
-        <section id="Section3"></section>
       </div>
     </div>
   );

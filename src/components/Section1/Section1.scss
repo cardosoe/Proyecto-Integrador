@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* header */
 .container {
-  margin-left: 100.33px;
-  margin-right: 110.5px;
+  margin-left: 6.25rem;
+  margin-right: 6.875rem;
 }
 
 /* barra de navegación */
@@ -10,133 +10,110 @@
 .nav-ul {
   list-style: none;
 }
-.nav-ul a {
-  margin-right: 48px;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom:1px;
-  margin-right:101px;
-  height:69px;
-}
-
-li {
-  list-style: none;
-}
-
-ul {
-  padding-left: 0px;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* /barra de navegación */
-.cont-nav {
-  border: 1px solid #e0752f;
-  opacity: 1;
-  height: 70px;
-  border-left-width: 0px;
-  border-top-width: 0px;
-  border-right-width: 0px;
-}
-
-.h1-header {
-    top: 254px;
-    // left: 101px;
-    width: 554px;
-    height: 115px;
-    padding:0px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    text-align: left;
-    letter-spacing: 0.67px;
+.nav-ul ul {
+  margin-right: 3rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    letter-spacing: 0rem;
     color: #ffffff;
-    position: absolute;
     opacity: 1;
-}
+  }
 
-h1 {
-  font-size: 48px;
-  line-height: 50px;
-}
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:0.063rem;
+    margin-right:6.313rem;
+    height:4.313rem;
+  }
 
+  li {
+    list-style: none;
+  }
 
-h3 {
-    top: 399px;
-    left: 101px;
-    width: 346px;
-    height: 42px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
-    letter-spacing: var(--unnamed-character-spacing-0-22);
-    font-weight: 400;
-    color: var(--unnamed-color-ffffff);
-    text-align: left;
-    font: normal normal medium 16px/21px Roboto;
-    letter-spacing: 0.22px;
-    color: #FFFFFF;
+  ul {
+    padding-left: 0rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* /barra de navegación */
+  .cont-nav {
+    border: 0.063rem solid #e0752f;
     opacity: 1;
-    position: absolute;
-}
+    height: 4.375rem;
+    border-left-width: 0rem;
+    border-top-width: 0rem;
+    border-right-width: 0rem;
+      position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+      margin-bottom: 0!important;
+      z-index: 20;
+  }
+
+  .h1-header {
+      top: 15.875rem;
+      // left: 6.3125rem;
+      width: 34.625rem;
+      height: 7.188rem;
+      padding:0rem;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      text-align: left;
+      letter-spacing: 0rem;
+      color: #ffffff;
+      position: absolute;
+      opacity: 1;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3.125rem;
+  }
 
 .cont-header {
-  top: 0px;
-  left: 0px;
-  width: 1366px;
-  height: 768px;
+  top: 0rem;
+  left: 0rem;
+  width: 85.375rem;
+  height: 48rem;
   // background: transparent url("../../assets/Images/slider-1.png") 0% 0% no-repeat padding-box;
   opacity: 1;
+  position:relative;
+
 }
 
 .top-logo {
-  top: 33px;
-  left: 133px;
-  width: 128.50px;
-  height: 30px;
+  top: 2.0625rem;
+  left: 8.3125rem;
+  height: 1.875rem;
   // background: transparent url("../../assets/Images/top-logo.svg") 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .button {
-  top: 480px;
-  left: 101px;
-  width: 144px;
-  height: 48px;
-  margin: 0px;
-  padding: 0px;
+  top: 30rem;
+  left: 6.3125rem;
+  width: 9rem;
+  height: 3rem;
+  margin: 0rem;
+  padding: 0rem;
   background: #e0752f 0% 0% no-repeat padding-box;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   opacity: 1;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
-  letter-spacing: 0.22px;
+  letter-spacing: 0.0138rem;
   color: #ffffff;
 position:absolute;
 }
 
-p {
-  top: 1079px;
-  margin-left: 299px;
-  width: 768px;
-  height: 197px;
-  text-align: left;
-  font: normal normal normal 16px/28px "Roboto";
-  letter-spacing: 0.22px;
-  color: #343434;
-  opacity: 1;
-  position: absolute;
-}
-
 /* /header */
-
+.carousel-control-prev, .carousel-control-next{
+opacity: 0;
+}
