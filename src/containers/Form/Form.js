@@ -73,19 +73,26 @@ const [validated, setValidated] = useState(false);
         </h2>
 
     <div className="Form">
-        <Form>
+        <Form noValidate validated={validated} onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Control type="name" placeholder="Name" />
+            <Form.Control onChange={handleOnChange}
+                  required type="text" placeholder="Name" name="name" />
           </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Control type="email" placeholder="Email" />
+            <Form.Control onChange={handleOnChange} type="email" placeholder="Email" name="email" />
+                <Form.Control.Feedback type="invalid">
+                  Please insert a valid email address.
+                </Form.Control.Feedback>
            </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Control type="tel" placeholder="Phone" />
+            <Form.Control onChange={handleOnChange} type="tel" placeholder="Phone" name="phone" />
            </Form.Group>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Control as="textarea" rows={3} placeholder="Message" />
-          </Form.Group>
+            <Form.Control onChange={handleOnChange} as="textarea" rows={3} placeholder="Message" name="message" />
+                <Form.Control.Feedback type='invalid'>
+                  Please write a message
+            </Form.Control.Feedback>     
+    </Form.Group>
         </Form>
     </div>
 
@@ -98,8 +105,8 @@ const [validated, setValidated] = useState(false);
       </div>
         { showAlert 
           ? error 
-            ? <Alert variant={'danger'}>Hubo un error al enviar el email </Alert> 
-            : <Alert variant={'success'}>Email enviado con éxito</Alert> 
+            ? <Alert variant={'danger'}>There was an error trying to send your message.</Alert> 
+            : <Alert variant={'success'}>Email sent successfully.</Alert> 
           : null }
     </div>
   );
