@@ -1,0 +1,15 @@
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == "tablet" {
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+      @content;
+    }
+  } @else if $breakpoint == "desktop" {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+}

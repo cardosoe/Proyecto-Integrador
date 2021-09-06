@@ -21,7 +21,7 @@ const ContactForm = () => {
             type="text"
             placeholder="Message"
             className="Message"
-            style={{ height: "96px" }}
+            style={{ height: "6rem" }}
           />
         }
         <input type="button" value="Send" className="button2" />
