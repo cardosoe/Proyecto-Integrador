@@ -55,12 +55,9 @@ const Section1 = () => {
           </nav>
         </div>
       </div>
-<<<<<<< HEAD
-        <input type="button" value="Read More" className="button" />
         <Carousel />
-    </div>
-=======
-      <a> <Link
+      <a>
+    <Link
         to="Section4"
         spy={true}
         smooth={true}
@@ -70,7 +67,6 @@ const Section1 = () => {
       </a >
       <Carousel />
     </div >
->>>>>>> 706c6470f712fb33841f9f9f7b020d2683cdfb4d
   );
 };
 
