@@ -2,13 +2,14 @@
 import axios from "axios"
 
 const instance = axios.create({
-  baseURL: 'http://joseamietta-laravel-api.herokuapp.com/api/'
+  // baseURL: 'http://joseamietta-laravel-api.herokuapp.com/api/'
+  baseURL: 'http://localhost:8000/api/about/save'
 })
 
 const sendEmail = async (data) => {
   const response = await instance({
     method: 'post',
-    url: 'contact/store',
+    url: 'http://localhost:8000/api/about/save',
     data: data
   });
 
