@@ -71,6 +71,7 @@ const [validated, setValidated] = useState(false);
             <span style={{ color: "#e0752f" }}>We are hiring!</span>
           </span>
         </h2>
+
     <div className="Form">
         <Form>
           <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -87,6 +88,7 @@ const [validated, setValidated] = useState(false);
           </Form.Group>
         </Form>
     </div>
+
         <input type="button" value="Send" className="button2" />
         <img
           src={Globos}

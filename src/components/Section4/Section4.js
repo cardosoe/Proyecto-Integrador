@@ -5,8 +5,7 @@ import Accordion from "../accordion/accordion";
 
 const Section4 = () => {
   return (
-    <div>
-      <section id="Section4"></section>
+    <div className="Section4">
       <section className="RectanguloFotoRuta">
         <img src={Ruta} alt="Foto Ruta" className="FotoRuta" />
         <Accordion />
