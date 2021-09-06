@@ -24,16 +24,7 @@ const Section1 = () => {
           </nav>
         </div>
       </div>
-      <h1 className="flex-flow container h1-header">
-        Sed ut perspiciatis <br /> unde omnis iste natus
-      </h1>
-      <h3>
-        Sed ut perspiciatis unde omnis iste natus error
-        <br /> sit voluptatem accusantium doloremque.
-      </h3>
-      <a href="../Section4/Section4.js/#Section4">
         <input type="button" value="Read More" className="button" />
-      </a>
         <Carousel />
     </div>
   );
