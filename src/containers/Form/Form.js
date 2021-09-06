@@ -46,13 +46,7 @@ const [validated, setValidated] = useState(false);
   }
 
   const handleOnChange = (e) => {
-    // Vamos a crear nuestro objeto formData
-    // {
-    //   name: 'Franco'
-    //   email: "franco@gmail.com"
-    //   phone: 346787666656
-    //   message: 'sadasdasdasd asd asd '
-    // }
+   
     setFormData((prevState) => {
       return {
         ...prevState,
