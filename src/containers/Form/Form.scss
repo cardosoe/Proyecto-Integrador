@@ -48,12 +48,15 @@
 .FotoGlobos {
   width: 37.5rem;
   height: 25rem;
-  left: auto;
+  // left: auto;
+  left: -19rem;
   background: transparent url("../../assets/Images/contact-image.png") 0% 0%
     no-repeat padding-box;
   opacity: 1;
-  position: relative;
-  top: -13.75rem;
+  // position: relative;
+  position: absolute;
+  // top: -31.75rem;
+  top: 13.25rem;
   right: 18.9375rem;
 }
 
@@ -103,4 +106,18 @@
   position: relative;
 }
 
+.alert {
+    top: -21rem;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
 
+.alert-danger {
+    color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+    font-size: large;
+} 
