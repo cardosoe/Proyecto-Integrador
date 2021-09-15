@@ -15,6 +15,9 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.currentTarget;
+    console.log(
+      "form.checkValidity()", form.checkValidity()
+    )
 
     setValidated(true);
 
