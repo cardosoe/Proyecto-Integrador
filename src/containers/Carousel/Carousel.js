@@ -8,31 +8,31 @@ const Slideshow = () => {
   return (
     <div className="Slideshow">
       <Carousel>
-        <Carousel.Item>
+        <div className="carousel-item">
           <img className="carouselImage1" src={Slideshow1} alt="First slide" />
           <Carousel.Caption>
-            <h3>Sed ut persipiciatis <br /> unde omnis First slide</h3>
-            <p class="carousel_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+            <h3 className="h3_carousel_text">Sed ut persipiciatis <br /> unde omnis First slide</h3>
+            <p className="carousel_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
+        </div>
+        <div className="carousel-item">
           <img className="carouselImage2" src={Slideshow2} alt="Second slide" />
           <Carousel.Caption>
-            <h3>Sed ut persipiciatis <br />unde Second slide</h3>
-            <p class="carousel_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque..</p>
+            <h3 className="h3_carousel_text">Sed ut persipiciatis <br />unde Second slide</h3>
+            <p className="carousel_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque..</p>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
+        </div>
+        <div className="carousel-item">
           <img className="carouselImage3" src={Slideshow3} alt="Third slide" />
           <Carousel.Caption>
-            <h3>Sed ut persipiciatis<br /> unde Third slide</h3>
-            <p class="carousel_text">
+            <h3 className="h3_carousel_text">Sed ut persipiciatis<br /> unde Third slide</h3>
+            <p className="carousel_text">
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </div>
       </Carousel>
-    </div>
+    </div >
   );
 };
 

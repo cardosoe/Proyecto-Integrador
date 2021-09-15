@@ -1,0 +1,37 @@
+
+.Carousel2 {
+    height: 34.5rem;
+    width: 60.375rem;
+    top: 4rem;
+    left: -47rem;
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+
+
+.carousel-control-prev { 
+    opacity: 1;
+    margin-top: 22rem;
+    left: 47rem;
+    position: absolute;
+}
+.carousel-control-next {
+    opacity: 1;
+    margin-top: 22rem;
+    left: 50rem;
+    position: absolute;
+}
+.carousel-control-prev-icon {
+    background-image: url("../../assets/Images/Icon-feather-arrow-left-circle.svg");
+}
+.carousel-control-next-icon {
+    background-image: url("../../assets/Images/Icon-feather-arrow-right-circle.svg");
+}
+.carousel-indicators {
+    position: relative;
+    top: 38.625rem;
+    opacity:0;
+}
+
+}
+ 

@@ -21,6 +21,11 @@
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+//   @include breakpoint("tablet"){
+//             height: 60%;
+//             width: 60%;
+//             margin: 0;
+// }
 }
 
 .carousel-indicators {
@@ -65,9 +70,9 @@ background-size: cover;
 }
 
 
-  h3 {
+  .h3_carousel_text {
 
-   top: -33.125rem;
+   top: -31.125rem;
    margin-left: -6.313rem;
    width: 34.625rem;
    height: 7.188rem;
@@ -84,7 +89,7 @@ background-size: cover;
  }
   .carousel_text {
 
-  top: -32.875rem;
+  top: -29.875rem;
   margin-left: -6.313rem;
   width: 23.438rem;
   height: 2.625rem;
@@ -99,18 +104,40 @@ background-size: cover;
   position: relative;
 }
 
-.carousel-control-prev, .carousel-control-next {
-  opacity: 0;
+// .carousel-control-prev { 
+//     opacity: 1;
+//     top: -53rem;
+//     left: 54rem;
+//     position: relative;
+// }
+// .carousel-control-next {
+//     opacity: 1;
+//     top: -55rem;
+//     left: 57rem;
+//     position: relative;
+// }
+// .carousel-control-prev-icon {
+//     background-image: url("../../assets/Images/Icon-feather-arrow-left-circle.svg");
+// }
+// .carousel-control-next-icon {
+//     background-image: url("../../assets/Images/Icon-feather-arrow-right-circle.svg");
+// }
+.carousel-caption {
+    position: relative;
+    right: 15%;
+    bottom: 2.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
 }
 
-// .Slideshow {
-//   img {
-//     @include breakpoint("tablet") {
-//       height: 700px;
-//       object-fit: cover;
-//     }
-//     @include breakpoint("mobile") {
-//       height: 800px;
-//       object-fit: cover;
-//     }
+// @media (min-width: 700px) {
+//   .carousel-caption {
+//     height: 40%;
+//     object-fit: cover;
+
 //   }
+// }
+

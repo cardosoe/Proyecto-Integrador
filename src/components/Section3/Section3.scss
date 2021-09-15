@@ -14,12 +14,14 @@
 }
 
 .RectanguloGris {
-  top: 90rem;
+  top: 0rem;
   margin-left: 60.5rem;
   width: 24.875rem;
   height: 48rem;
   background: #dce1da 0% 0% no-repeat padding-box;
   opacity: 1;
+  position:relative; 
+
 }
 
 .FotoCasa {
@@ -32,13 +34,14 @@
 }
 
 .CuadradoNaranja {
-  margin-top: 18.9375rem;
-  margin-left: 7rem;
-  width: 29.4375rem;
-  height: 19rem;
-  background: #e0752f 0% 0% no-repeat padding-box;
-  opacity: 1;
-  position: relative;
+    top: 15.5rem;
+    margin-left: 30.95rem;
+    width: 29.4375rem;
+    height: 19rem;
+    background: grey 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    /* z-index: -74; */
 }
 
 .TextoCuadradoNaranja {

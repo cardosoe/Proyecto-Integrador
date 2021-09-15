@@ -6,8 +6,7 @@ const Section2 = () => {
     <div className="Section2">
       <div className="rectangulo">
         <h4>
-          <span style={{ color: "#343434" }}>
-            We Help Businesses
+          <span style={{ color: "#343434" }}>We Help Businesses
             <br />
             <span style={{ color: "#e0752f" }}>Grow and Innovate</span>
           </span>

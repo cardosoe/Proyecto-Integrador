@@ -46,13 +46,7 @@ const ContactForm = () => {
   }
 
   const handleOnChange = (e) => {
-    // Vamos a crear nuestro objeto formData
-    // {
-    //   name: 'Franco'
-    //   email: "franco@gmail.com"
-    //   phone: 346787666656
-    //   message: 'sadasdasdasd asd asd '
-    // }
+
 
     setFormData((prevState) => {
       return {
@@ -77,30 +71,24 @@ const ContactForm = () => {
           <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Control onChange={handleOnChange}
-                required type="text" placeholder="Name" name="name" />
+                required type="text" placeholder="Name" name="name" required="required" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Control onChange={handleOnChange} type="email" placeholder="Email" name="email" />
-              <Form.Control.Feedback type="invalid">
-                Please insert a valid email address.
-              </Form.Control.Feedback>
+              <Form.Control onChange={handleOnChange} type="email" placeholder="Email" name="email" required="required" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Control onChange={handleOnChange} type="tel" placeholder="Phone" name="phone" />
+              <Form.Control onChange={handleOnChange} type="tel" placeholder="Phone" name="phone" pattern="[0-9]{3}[0-9]{7}" required="required" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <Form.Control onChange={handleOnChange} as="textarea" rows={3} placeholder="Message" name="message" />
-              <Form.Control.Feedback type='invalid'>
-                Please write a message
-              </Form.Control.Feedback>
+              <Form.Control onChange={handleOnChange} as="textarea" rows={3} placeholder="Please enter a message" name="message" required="required" />
             </Form.Group>
             <input type="submit" value="Send" className="button2" />
           </Form>
           {showAlert
-        ? error
-          ? <Alert variant={'danger'}>There was an error trying to send your message.</Alert>
-          : <Alert variant={'success'}>Email sent successfully.</Alert>
-        : null}
+            ? error
+              ? <Alert variant={'danger'}>There was an error trying to send your message.</Alert>
+              : <Alert variant={'success'}>Email sent successfully.</Alert>
+            : null}
 
         </div>
         <img
@@ -109,7 +97,7 @@ const ContactForm = () => {
           className="FotoGlobos"
         />
       </div>
-         </div>
+    </div>
   );
 };
 
