@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import Slideshow1 from "../../assets/Images/slider-1.png";
 import Slideshow2 from "../../assets/Images/slide2.jpg";
 import Slideshow3 from "../../assets/Images/slide3.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Slideshow = () => {
   return (
@@ -32,6 +33,15 @@ const Slideshow = () => {
           </Carousel.Caption>
         </div>
       </Carousel>
+      <a>
+        <Link
+          to="Section4"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}>
+          <input type="button" value="Read More" className="button" /></Link>
+      </a >
     </div >
   );
 };

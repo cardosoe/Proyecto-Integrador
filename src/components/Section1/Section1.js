@@ -55,19 +55,10 @@ const Section1 = () => {
           </nav>
         </div>
       </div>
-        <Carousel />
-      <a>
-    <Link
-        to="Section4"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}>
-        <input type="button" value="Read More" className="button" /></Link>
-      </a >
-      <Carousel />
     </div >
   );
 };
 
 export default Section1;
+
+
