@@ -33,15 +33,6 @@ const Slideshow = () => {
           </Carousel.Caption>
         </div>
       </Carousel>
-      <a>
-        <Link
-          to="Section4"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}>
-          <input type="button" value="Read More" className="button" /></Link>
-      </a >
     </div >
   );
 };
