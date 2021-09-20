@@ -1,8 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Slideshow1 from "../../assets/Images/slider-1.png";
-import Slideshow2 from "../../assets/Images/slide2.jpg";
-import Slideshow3 from "../../assets/Images/slide3.jpg";
+import Slideshow1 from "../../assets/Images/slider-1@2x.png";
+import Slideshow2 from "../../assets/Images/slider-1@2x.png";
+import Slideshow3 from "../../assets/Images/slider-1@2x.png";
+// import Slideshow2 from "../../assets/Images/slide2.jpg";
+// import Slideshow3 from "../../assets/Images/slide3.jpg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Slideshow = () => {
@@ -38,3 +40,4 @@ const Slideshow = () => {
 };
 
 export default Slideshow;
+

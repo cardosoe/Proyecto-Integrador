@@ -1,37 +1,57 @@
 
 
 .Section2{
-  top: -7rem;
+  top: 14rem;
+  width:100%;
+  height:100vh;
   position: relative;
+      display: flex;
+      flex-direction:row;
+    align-items: center;
+    justify-content: left;
 }
 
 /*Rectángulo naranja a la izquierda de la segunda seccion*/
 
-.rectangulo {
-  top: 57rem;
-  left: 0rem;
-  width: 2rem;
-  height: 24rem;
-  margin-bottom: 9rem;
-  background: #e0752f 0% 0%;
-  height: 24rem;
-}
-
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 2.4375rem;
-  font-weight: 600;
-  margin-left: 18.6875rem;
-  width: 25.625rem;
-  height: 6.25rem;
-  margin-top: 10.4375rem;
-  margin-bottom: 2.75rem;
-  top: 2.125rem;
-  letter-spacing: 0.0344rem;
-  opacity: 1;
-  line-height: 2.8125rem;
+// .rectangulo {
+//   top: 57rem;
+//   left: 0rem;
+//   width: 2rem;
+//   height: 24rem;
+//   margin-bottom: 9rem;
+//   background: #e0752f 0% 0%;
+//   height: 24rem;
+// } 
+ .rectangulo {
+  margin: 0;
+  padding: 2rem 0;
   position: relative;
-}
+  height: 24rem;
+       &::after { 
+       content: "";
+       position: absolute;
+       width: 3.2rem;
+       background-color: #e0752f;
+       height: 100%;
+       top: 0;
+       left: 0;
+  }
+  }
+// h4 {
+//   font-family: "Poppins", sans-serif;
+//   font-size: 2.4375rem;
+//   font-weight: 600;
+//   margin-left: 18.6875rem;
+//   width: 25.625rem;
+//   height: 6.25rem;
+//   margin-top: 10.4375rem;
+//   margin-bottom: 2.75rem;
+//   top: 2.125rem;
+//   letter-spacing: 0.0344rem;
+//   opacity: 1;
+//   line-height: 2.8125rem;
+//   position: relative;
+// }
 
 .rectangulo > h4 {
   width: 26.125rem;
@@ -39,12 +59,14 @@ h4 {
   font-family: "Poppins", sans-serif;
   font-size: 2.4375rem;
   font-weight: 600;
-  margin-left: 18.6875rem;
-  margin-bottom: 0rem;
+  // margin-left: 18.6875rem;
   letter-spacing: 0.0344rem;
   opacity: 1;
   line-height: 2.8125rem;
+  margin: 0rem 0 1.63rem 19rem;
 }
+ 
+
 
 .rectangulo > h4 > span {
   top: 57rem;
@@ -60,7 +82,6 @@ h4 {
 }
 
 .Section2_text{
-  margin-top: 4.75rem;
   margin-left: 18.6875rem;
   width: 48rem;
   height: 12.3125rem;
@@ -69,5 +90,5 @@ h4 {
   letter-spacing: 0.0138rem;
   color: #343434;
   opacity: 1;
-  position: absolute;
+  position: relative;
 }
